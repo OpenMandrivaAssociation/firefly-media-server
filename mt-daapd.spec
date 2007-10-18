@@ -16,7 +16,7 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: libid3tag-devel, ffmpeg-devel
 BuildRequires: sqlite-devel, sqlite3-devel, gdbm-devel
 BuildRequires: libogg-devel, libflac-devel
-BuildRequires: avahi-core-devel, avahi-common-devel
+BuildRequires: avahi-client-devel, avahi-core-devel, avahi-common-devel
 Provides: mt-daapd
 
 %description
