@@ -13,10 +13,10 @@ Source0: http://download.sourceforge.net/sourceforge/mt-daapd/%{orgname}-svn-%{s
 Source1: %{orgname}-init.d
 Source2: %{orgname}-logrotate.d
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-BuildRequires: libid3tag-devel, ffmpeg-devel
+BuildRequires: libid3tag-devel, ffmpeg-devel, libvorbis-devel
 BuildRequires: sqlite-devel, sqlite3-devel, gdbm-devel
-BuildRequires: libogg-devel, libflac-devel
-BuildRequires: avahi-client-devel, avahi-core-devel, avahi-common-devel
+BuildRequires: libvorbis-devel, libflac-devel
+BuildRequires: libavahi-client-devel, libavahi-core-devel, libavahi-common-devel
 Provides: mt-daapd
 
 %description
