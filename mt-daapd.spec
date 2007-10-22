@@ -27,7 +27,7 @@ daemon.
 
 %package devel
 Summary: Development libraries for mt-daapd
-Group: Development/Libraries
+Group: System/Servers
 
 %description devel
 Development libraries for mt-daapd.
