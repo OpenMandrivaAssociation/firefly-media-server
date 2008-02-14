@@ -8,6 +8,7 @@ Version: %realver
 Release: %mkrel 1.r%svnver.1
 License: GPL
 Group: System/Servers
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 URL: http://www.mt-daapd.org
 Source0: http://download.sourceforge.net/sourceforge/mt-daapd/%{orgname}-svn-%{svnver}.tar.gz
 Source1: %{orgname}-init.d
