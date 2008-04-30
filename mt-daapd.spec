@@ -1,5 +1,5 @@
-%define svnver 1671
-%define realver 0.2.4
+%define svnver 1696
+%define realver 0.2.4.1
 %define orgname mt-daapd
 
 Summary: A multi-threaded implementation of Apple's DAAP server
@@ -10,7 +10,7 @@ License: GPL
 Group: System/Servers
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 URL: http://www.mt-daapd.org
-Source0: http://download.sourceforge.net/sourceforge/mt-daapd/%{orgname}-svn-%{svnver}.tar.gz
+Source0: http://nightlies.fireflymediaserver.org/nightlies/svn-1696/mt-daapd-svn-1696.tar.gz
 Source1: %{orgname}-init.d
 Source2: %{orgname}-logrotate.d
 BuildRequires: libid3tag-devel, ffmpeg-devel, libvorbis-devel
