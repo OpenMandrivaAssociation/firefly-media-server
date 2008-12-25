@@ -5,7 +5,7 @@
 Summary: A multi-threaded implementation of Apple's DAAP server
 Name: firefly-media-server
 Version: %realver
-Release: %mkrel 2.r%svnver.1
+Release: %mkrel 3.r%svnver.1
 License: GPL
 Group: System/Servers
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
