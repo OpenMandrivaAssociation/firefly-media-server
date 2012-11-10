@@ -1,0 +1,4 @@
+sources:
+  "mt-daapd-init.d:"	c824be39ecdd49afcb2debe9a5645cbf660ec545
+  "mt-daapd-logrotate.d:"	fe92b41dd8bb7f2a5821de6cb623f1053b3ec77e
+  "mt-daapd-svn-1696.tar.gz:"	03f04643ceb0b0bbf278d8482c61a5b0e0ea1a7b
