@@ -9,7 +9,7 @@ Release: %mkrel 3.r%svnver.2
 License: GPL
 Group: System/Servers
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-URL: http://www.mt-daapd.org
+URL: https://www.mt-daapd.org
 Source0: http://nightlies.fireflymediaserver.org/nightlies/svn-1696/mt-daapd-svn-1696.tar.gz
 Source1: %{orgname}-init.d
 Source2: %{orgname}-logrotate.d
