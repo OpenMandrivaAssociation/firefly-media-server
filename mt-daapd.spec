@@ -13,6 +13,11 @@ URL: https://www.mt-daapd.org
 Source0: http://nightlies.fireflymediaserver.org/nightlies/svn-1696/mt-daapd-svn-1696.tar.gz
 Source1: %{orgname}-init.d
 Source2: %{orgname}-logrotate.d
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: libid3tag-devel, ffmpeg-devel, libvorbis-devel
 BuildRequires: sqlite-devel, sqlite3-devel, gdbm-devel
 BuildRequires: libvorbis-devel, libflac-devel
